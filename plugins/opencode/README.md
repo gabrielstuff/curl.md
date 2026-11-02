@@ -25,6 +25,13 @@ To update:
 opencode plugin -g @curl.md/opencode --force
 ```
 
+## Compatibility
+
+Works with OpenCode v1 (1.18.29+) and v2 from the same package:
+
+- v2 calls `setup()` on the server and TUI parts.
+- v1 calls `server()` and `tui()`.
+
 ## Documentation
 
 For full documentation, visit [curl.md/docs](https://curl.md/docs/plugins/opencode)

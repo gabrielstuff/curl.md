@@ -19,7 +19,7 @@
     "opencode"
   ],
   "engines": {
-    "opencode": "^1.0.0"
+    "opencode": ">=1.18.29"
   },
   "exports": {
     ".": {
@@ -47,5 +47,8 @@
   "dependencies": {
     "@opencode-ai/plugin": "1.4.6",
     "curl.md": "workspace:*"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "2.2.5"
   }
 }

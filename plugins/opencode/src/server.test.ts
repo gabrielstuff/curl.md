@@ -417,7 +417,7 @@ test('surfaces authentication guidance for invalid API key 401s', async () => {
 })
 
 async function loadPlugin(options?: Record<string, unknown>) {
-  return plugin(
+  return plugin.server(
     {
       $: undefined as never,
       client: undefined as never,
